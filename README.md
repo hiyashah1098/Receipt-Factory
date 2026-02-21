@@ -3,33 +3,17 @@
 
 ## Why Receipt Factory Matters
 
-Recent events like the Ashley Furniture Class Action Lawsuit highlight the need for consumer protection against deceptive pricing and false advertising. Ashley Furniture displayed inflated "original" prices to create the illusion of discounts, resulting in a $750,000 settlement. Many consumers are unaware when receipts list prices at least 10% higher than the actual invoice price, creating a false perception of savings.
+Recent consumer protection lawsuits against major retailers have highlighted concerns around reference pricing and misleading discounts. Many shoppers assume advertised savings reflect true value, but verifying pricing transparency can be difficult. Receipt Factory was built to bring transparency back to everyday purchases. Unlike standard banking apps that only log totals, Receipt Factory analyzes each line item using advanced AI to detect pricing inconsistencies, hidden fees, and billing errors. With Receipt Factory, consumers can:
 
-**Receipt Factory** was built to address these issues. Standard banking apps only log totals, but Receipt Factory audits your receipts like a lawyer. Using Google Gemini, it analyzes every line item to find mistakes, hidden fees, and overcharges that most apps miss. This empowers consumers to:
-- Detect deceptive pricing and hidden fees
-- Receive timely reminders for returns and warranties
-- Split bills fairly and transparently
-- Advocate for refunds and dispute unfair charges
-- Track and organize receipts for legal and financial protection
+- Detect potential pricing discrepancies
+- Track returns and warranties
+- Split bills accurately
+- Organize receipts for disputes or reimbursements
+- Advocate for refunds with documented evidence
 
 ## Project Overview
 
 Receipt Factory is a web and mobile app designed for real-world consumer protection. Each feature is crafted to solve a specific problem:
-
-- **Golden Scan:** Finds hidden fees and double-tipping risks, protecting you from overpaying.
-- **Fizzy Split:** Makes bill splitting easy and fair, handling complex scenarios and ensuring everyone pays their share.
-- **Oompa Loompa Price Check:** Flags overpriced items and gives a Rip-off Score, so you know when you're being overcharged.
-- **Wonkavision:** Tracks warranty and return deadlines, sending reminders before you lose the chance to return or claim.
-- **Golden Ticket Reminder System:** Ensures you never miss important receipt events, like warranty expiration or return windows.
-- **Receipt Vault:** Organizes and secures your receipts, making them easy to find for returns, warranties, or disputes.
-- **Loompa Legal Team:** Generates professional refund requests and dispute messages, helping you advocate for your rights.
-- **Alerts & Notifications:** Keeps you informed about all receipt-related events, customizable to your needs.
-- **WonkaVision AI:** Uses advanced vision AI to analyze receipts, detect mistakes, and automate bill splitting.
-- **Instant Advocate:** Provides AI-powered support for consumer disputes and refund requests.
-- **Golden Ticket Animation:** Adds fun and motivation to your savings journey.
-
-Receipt Factory is more than an expense tracker—it's your personal consumer protection toolkit.
-
 
 ## ✨ Features
 
