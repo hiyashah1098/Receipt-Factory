@@ -31,7 +31,7 @@ Generates a perfectly worded email or SMS to the merchant's consumer service req
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd receipt-detective
+   cd Receipt-Factory
    ```
 
 2. **Install dependencies**
@@ -60,7 +60,7 @@ Generates a perfectly worded email or SMS to the merchant's consumer service req
 ## 📁 Project Structure
 
 ```
-receipt-detective/
+Receipt-Factory/
 ├── app/                      # Expo Router screens
 │   ├── (tabs)/              # Tab navigation
 │   │   ├── index.tsx        # Home screen
