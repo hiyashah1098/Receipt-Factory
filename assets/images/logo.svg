@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <!-- Golden shimmer gradient -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4E4BA"/>
+      <stop offset="25%" style="stop-color:#D4AF37"/>
+      <stop offset="50%" style="stop-color:#FFD700"/>
+      <stop offset="75%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#8B6914"/>
+    </linearGradient>
+    
+    <!-- Chocolate gradient -->
+    <linearGradient id="chocolateGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5D4037"/>
+      <stop offset="50%" style="stop-color:#3E2723"/>
+      <stop offset="100%" style="stop-color:#2C1810"/>
+    </linearGradient>
+    
+    <!-- Factory smoke gradient -->
+    <linearGradient id="smokeGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#D7CCC8"/>
+      <stop offset="100%" style="stop-color:#D7CCC8" stop-opacity="0"/>
+    </linearGradient>
+    
+    <!-- Receipt paper gradient -->
+    <linearGradient id="receiptGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFDF7"/>
+      <stop offset="100%" style="stop-color:#F5F0E6"/>
+    </linearGradient>
+    
+    <!-- Drop shadow filter -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#1A0F0A" flood-opacity="0.4"/>
+    </filter>
+    
+    <!-- Glow filter for golden elements -->
+    <filter id="goldGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#FFD700" flood-opacity="0.5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle (chocolate) -->
+  <circle cx="200" cy="200" r="180" fill="url(#chocolateGradient)" filter="url(#shadow)"/>
+  
+  <!-- Decorative chocolate swirl border -->
+  <circle cx="200" cy="200" r="170" fill="none" stroke="#8B6914" stroke-width="3" stroke-dasharray="15,8" opacity="0.6"/>
+  
+  <!-- Factory Building Base -->
+  <g transform="translate(200, 200)">
+    <!-- Main factory body -->
+    <rect x="-70" y="-30" width="140" height="100" rx="8" fill="url(#chocolateGradient)" stroke="#D4AF37" stroke-width="2"/>
+    
+    <!-- Factory roof -->
+    <polygon points="-80,-30 0,-70 80,-30" fill="#5D4037" stroke="#D4AF37" stroke-width="2"/>
+    
+    <!-- Left chimney -->
+    <rect x="-55" y="-95" width="20" height="40" fill="#3E2723" stroke="#D4AF37" stroke-width="1.5"/>
+    <!-- Smoke puffs from left chimney -->
+    <ellipse cx="-45" cy="-105" rx="12" ry="8" fill="url(#smokeGradient)" opacity="0.7"/>
+    <ellipse cx="-42" cy="-118" rx="9" ry="6" fill="url(#smokeGradient)" opacity="0.5"/>
+    <ellipse cx="-48" cy="-128" rx="6" ry="4" fill="url(#smokeGradient)" opacity="0.3"/>
+    
+    <!-- Right chimney -->
+    <rect x="35" y="-95" width="20" height="40" fill="#3E2723" stroke="#D4AF37" stroke-width="1.5"/>
+    <!-- Smoke puffs from right chimney -->
+    <ellipse cx="45" cy="-105" rx="12" ry="8" fill="url(#smokeGradient)" opacity="0.7"/>
+    <ellipse cx="48" cy="-118" rx="9" ry="6" fill="url(#smokeGradient)" opacity="0.5"/>
+    <ellipse cx="42" cy="-128" rx="6" ry="4" fill="url(#smokeGradient)" opacity="0.3"/>
+    
+    <!-- Factory windows (golden glow) -->
+    <rect x="-50" y="-15" width="25" height="30" rx="3" fill="#FFF8E1" stroke="#D4AF37" stroke-width="1.5"/>
+    <rect x="-12" y="-15" width="25" height="30" rx="3" fill="#FFF8E1" stroke="#D4AF37" stroke-width="1.5"/>
+    <rect x="25" y="-15" width="25" height="30" rx="3" fill="#FFF8E1" stroke="#D4AF37" stroke-width="1.5"/>
+    
+    <!-- Window cross bars -->
+    <line x1="-37.5" y1="-15" x2="-37.5" y2="15" stroke="#D4AF37" stroke-width="1"/>
+    <line x1="-50" y1="0" x2="-25" y2="0" stroke="#D4AF37" stroke-width="1"/>
+    <line x1="0.5" y1="-15" x2="0.5" y2="15" stroke="#D4AF37" stroke-width="1"/>
+    <line x1="-12" y1="0" x2="13" y2="0" stroke="#D4AF37" stroke-width="1"/>
+    <line x1="37.5" y1="-15" x2="37.5" y2="15" stroke="#D4AF37" stroke-width="1"/>
+    <line x1="25" y1="0" x2="50" y2="0" stroke="#D4AF37" stroke-width="1"/>
+    
+    <!-- Factory door -->
+    <rect x="-15" y="35" width="30" height="35" rx="15" ry="15" fill="#2C1810" stroke="#D4AF37" stroke-width="2"/>
+    <circle cx="8" cy="55" r="3" fill="#D4AF37"/>
+  </g>
+  
+  <!-- Golden Ticket Receipt emerging from factory -->
+  <g transform="translate(200, 200)" filter="url(#goldGlow)">
+    <!-- Receipt paper with golden ticket styling -->
+    <g transform="rotate(-15)">
+      <path d="M 55,-20 
+               L 55,85 
+               Q 58,88 55,91 Q 52,94 55,97 Q 58,100 55,103 Q 52,106 55,109 Q 58,112 55,115
+               L -10,115 
+               Q -13,112 -10,109 Q -7,106 -10,103 Q -13,100 -10,97 Q -7,94 -10,91 Q -13,88 -10,85
+               L -10,-20 Z" 
+            fill="url(#goldGradient)" stroke="#8B6914" stroke-width="2"/>
+      
+      <!-- Receipt lines (as if scanned items) -->
+      <line x1="0" y1="-5" x2="45" y2="-5" stroke="#5D4037" stroke-width="2" opacity="0.7"/>
+      <line x1="0" y1="8" x2="40" y2="8" stroke="#5D4037" stroke-width="2" opacity="0.7"/>
+      <line x1="0" y1="21" x2="35" y2="21" stroke="#5D4037" stroke-width="2" opacity="0.7"/>
+      <line x1="0" y1="34" x2="42" y2="34" stroke="#5D4037" stroke-width="2" opacity="0.7"/>
+      
+      <!-- Checkmark (fee detected!) -->
+      <g transform="translate(20, 60)">
+        <circle cx="0" cy="0" r="18" fill="#2E7D32" stroke="#1B5E20" stroke-width="2"/>
+        <polyline points="-8,0 -2,8 10,-8" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      
+      <!-- Dollar sign savings indicator -->
+      <g transform="translate(20, 95)">
+        <text x="0" y="0" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#3E2723" text-anchor="middle">$$$</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Magnifying glass (detective element) -->
+  <g transform="translate(290, 130)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="28" fill="none" stroke="url(#goldGradient)" stroke-width="6"/>
+    <circle cx="0" cy="0" r="22" fill="#FFF8E1" fill-opacity="0.3"/>
+    <line x1="20" y1="20" x2="38" y2="38" stroke="url(#goldGradient)" stroke-width="8" stroke-linecap="round"/>
+    <!-- Shine on glass -->
+    <ellipse cx="-8" cy="-8" rx="6" ry="4" fill="#FFFFFF" opacity="0.6" transform="rotate(-45)"/>
+  </g>
+  
+  <!-- Chocolate bar decorative elements -->
+  <g transform="translate(95, 290)">
+    <rect x="0" y="0" width="35" height="20" rx="3" fill="#5D4037" stroke="#D4AF37" stroke-width="1"/>
+    <line x1="12" y1="0" x2="12" y2="20" stroke="#3E2723" stroke-width="1"/>
+    <line x1="24" y1="0" x2="24" y2="20" stroke="#3E2723" stroke-width="1"/>
+  </g>
+  
+  <g transform="translate(270, 285)">
+    <rect x="0" y="0" width="35" height="20" rx="3" fill="#5D4037" stroke="#D4AF37" stroke-width="1"/>
+    <line x1="12" y1="0" x2="12" y2="20" stroke="#3E2723" stroke-width="1"/>
+    <line x1="24" y1="0" x2="24" y2="20" stroke="#3E2723" stroke-width="1"/>
+  </g>
+  
+  <!-- Stars (magical Wonka feel) -->
+  <g fill="#FFD700" opacity="0.8">
+    <polygon points="85,100 87,106 93,106 88,110 90,116 85,112 80,116 82,110 77,106 83,106" />
+    <polygon points="315,180 317,185 322,185 318,188 319,193 315,190 311,193 312,188 308,185 313,185" transform="scale(0.8)"/>
+    <polygon points="120,320 121,324 125,324 122,326 123,330 120,328 117,330 118,326 115,324 119,324" />
+  </g>
+  
+  <!-- Text: RECEIPT FACTORY -->
+  <text x="200" y="355" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="url(#goldGradient)" text-anchor="middle" letter-spacing="2">
+    RECEIPT FACTORY
+  </text>
+  
+  <!-- Tagline -->
+  <text x="200" y="378" font-family="Arial, sans-serif" font-size="11" fill="#D7CCC8" text-anchor="middle" letter-spacing="1">
+    YOUR GOLDEN TICKET TO SAVINGS
+  </text>
+</svg>

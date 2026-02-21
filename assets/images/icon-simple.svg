@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <!-- Golden shimmer gradient -->
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4E4BA"/>
+      <stop offset="50%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#8B6914"/>
+    </linearGradient>
+    
+    <!-- Chocolate gradient -->
+    <linearGradient id="chocolate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5D4037"/>
+      <stop offset="100%" style="stop-color:#3E2723"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="url(#chocolate)"/>
+  
+  <!-- Golden ticket/receipt -->
+  <g transform="translate(256, 256)">
+    <!-- Receipt shape with torn bottom -->
+    <path d="M -80,-120 
+             L 80,-120 
+             L 80,100 
+             Q 70,108 80,116 Q 90,124 80,132 Q 70,140 80,148
+             L -80,148 
+             Q -70,140 -80,132 Q -90,124 -80,116 Q -70,108 -80,100
+             Z" 
+          fill="url(#gold)" stroke="#8B6914" stroke-width="3"/>
+    
+    <!-- Receipt lines -->
+    <line x1="-50" y1="-80" x2="50" y2="-80" stroke="#5D4037" stroke-width="5" stroke-linecap="round"/>
+    <line x1="-50" y1="-45" x2="40" y2="-45" stroke="#5D4037" stroke-width="5" stroke-linecap="round"/>
+    <line x1="-50" y1="-10" x2="45" y2="-10" stroke="#5D4037" stroke-width="5" stroke-linecap="round"/>
+    
+    <!-- Checkmark circle -->
+    <circle cx="0" cy="50" r="35" fill="#2E7D32"/>
+    <polyline points="-15,50 -5,62 18,38" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Dollar sign at bottom -->
+    <text x="0" y="120" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#3E2723" text-anchor="middle">$</text>
+  </g>
+  
+  <!-- Magnifying glass accent -->
+  <g transform="translate(380, 120)">
+    <circle cx="0" cy="0" r="45" fill="none" stroke="url(#gold)" stroke-width="8"/>
+    <line x1="32" y1="32" x2="60" y2="60" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Sparkle stars -->
+  <circle cx="100" cy="100" r="8" fill="#FFD700"/>
+  <circle cx="420" cy="400" r="6" fill="#FFD700"/>
+</svg>
