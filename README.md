@@ -3,13 +3,18 @@
 
 ## Why Receipt Factory Matters
 
-Recent consumer protection lawsuits against major retailers have highlighted concerns around reference pricing and misleading discounts. Many shoppers assume advertised savings reflect true value, but verifying pricing transparency can be difficult. Receipt Factory was built to bring transparency back to everyday purchases. Unlike standard banking apps that only log totals, Receipt Factory analyzes each line item using advanced AI to detect pricing inconsistencies, hidden fees, and billing errors. With Receipt Factory, consumers can:
+Consumers are increasingly exposed to pricing practices that can obscure the true cost of what they buy. Hidden or undisclosed fees — charges not clearly revealed to a consumer before purchase — are a recognized problem under consumer protection law and cost people millions of dollars each year. Federal and state laws provide remedies for deceptive or abusive practices, including penalties or refunds where fees were not disclosed upfront as required.
+Recent consumer protection lawsuits targeting misleading pricing practices — including actions involving major retailers — illustrate how confusing pricing and references to inflated “original” prices can make it hard for shoppers to understand whether advertised discounts are real.
+Standard banking and receipt-tracking apps typically focus only on recording transaction totals, without analyzing how those totals were generated. Receipt Factory was built to change that. Instead of just logging totals, Receipt Factory uses advanced AI to analyze every line item in your receipts and highlight potential issues that standard tools often miss.
+With Receipt Factory, consumers can:
 
-- Detect potential pricing discrepancies
-- Track returns and warranties
-- Split bills accurately
-- Organize receipts for disputes or reimbursements
-- Advocate for refunds with documented evidence
+- Detect pricing inconsistencies, hidden fees, or charges that weren’t clearly disclosed
+- Track returns, warranties, and purchase terms proactively
+- Split bills fairly and transparently
+- Organize receipts for dispute resolution or reimbursement
+- Strengthen documentation for consumer inquiries or legal protection
+
+By bringing transparency to the checkout and receipt level, Receipt Factory empowers people to see exactly where their money goes, understand the full cost of what they purchase, and act confidently when they suspect something doesn’t add up.
 
 ## Project Overview
 
