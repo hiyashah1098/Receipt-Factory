@@ -1,5 +1,5 @@
 
-# 🍫 Receipt Factory
+# Receipt Factory
 
 ## Why Receipt Factory Matters
 
