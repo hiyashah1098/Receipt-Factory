@@ -2,22 +2,47 @@
 
 **Your Golden Ticket to Savings.** Unlike standard expense trackers that just log totals, Receipt Factory uses Google's Gemini 2.5 Flash vision capabilities to analyze line items, find mistakes, detect hidden fees, split complex bills, and track warranty dates.
 
+
 ## ✨ Features
 
 ### 🔍 Golden Scan
 Automatically detects hidden fees, service charges, and automatic gratuities. Shows a **bold RED warning** if you're about to double-tip!
 
 ### 🧑‍🤝‍🧑 Fizzy Split
-Simply describe how to split the bill: *"Split between me, Alex, and Sam. Alex didn't drink alcohol, Sam pays for apps."* The AI handles the rest, including proportional tax and tip distribution.
+Describe how to split the bill in natural language. The AI handles proportional tax and tip distribution, and can accommodate custom rules (e.g., "Sam pays for apps, Alex didn't drink alcohol").
 
 ### 📈 Oompa Loompa Price Check
-Compares your receipt prices against typical US market averages and gives you a "Rip-off Score" (1-10). Highlights items that are abnormally expensive.
+Compares receipt prices against US market averages and gives you a "Rip-off Score" (1-10). Highlights items that are abnormally expensive.
 
 ### ⏰ Wonkavision
-Automatically categorizes durable goods (electronics, clothing) vs consumables (food). Schedules push notifications **48 hours before** return deadlines expire.
+Categorizes durable goods vs consumables and schedules push notifications **48 hours before** return deadlines expire.
 
-### The Loompa Legal Team
-Generates a perfectly worded email or SMS to the merchant's consumer service requesting a refund if a hidden fee, double-tip or expired item sold is detected.
+### 🏆 Golden Ticket Reminder System
+Tracks warranty dates, return deadlines, and sends reminders for important receipt events. Never miss a return window or warranty expiration.
+
+### 🏦 Receipt Vault
+Securely stores and organizes all your scanned receipts, making them searchable and easy to retrieve for returns, warranties, or expense tracking.
+
+### 👩‍⚖️ The Loompa Legal Team
+Generates perfectly worded emails or SMS to merchants for refunds if hidden fees, double-tips, or expired items are detected.
+
+### 🛡️ Oompa Loompa Price Check
+Checks prices against market averages and flags rip-offs. Provides a "Rip-off Score" and highlights overpriced items.
+
+### 🔔 Alerts & Notifications
+Push notifications for warranty, return, and split reminders. Customizable alert settings.
+
+### 🪄 WonkaVision AI
+Uses Google Gemini 2.5 Flash vision to analyze receipts, detect mistakes, and automate bill splitting.
+
+### 🏅 Instant Advocate
+AI-powered consumer advocacy for disputes and refund requests.
+
+### 🎫 Golden Ticket Animation
+Fun, animated feedback for special events and achievements in the app.
+
+### And More!
+Continuous updates and new features for smarter receipt management.
 
 ## 🚀 Getting Started
 
