@@ -24,7 +24,7 @@ Tracks warranty dates, return deadlines, and sends reminders for important recei
 Securely stores and organizes all your scanned receipts, making them searchable and easy to retrieve for returns, warranties, or expense tracking.
 
 ### 👩‍⚖️ The Loompa Legal Team
-Generates perfectly worded emails or SMS to merchants for refunds if hidden fees, double-tips, or expired items are detected.
+Generates perfectly worded emails or SMS to merchants for refunds if hidden fees, double-tips, or expired items are detected. AI-powered consumer advocacy for disputes and refund requests.
 
 ### 🛡️ Oompa Loompa Price Check
 Checks prices against market averages and flags rip-offs. Provides a "Rip-off Score" and highlights overpriced items.
@@ -34,9 +34,6 @@ Push notifications for warranty, return, and split reminders. Customizable alert
 
 ### 🪄 WonkaVision AI
 Uses Google Gemini 2.5 Flash vision to analyze receipts, detect mistakes, and automate bill splitting.
-
-### 🏅 Instant Advocate
-AI-powered consumer advocacy for disputes and refund requests.
 
 ### 🎫 Golden Ticket Animation
 Fun, animated feedback for special events and achievements in the app.
