@@ -12,8 +12,10 @@
       "supportsTablet": true,
       "infoPlist": {
         "NSCameraUsageDescription": "Receipt Factory needs camera access to scan and analyze your receipts for hidden fees, bill splitting, and warranty tracking.",
-        "NSPhotoLibraryUsageDescription": "Receipt Factory needs photo library access to upload receipt images for analysis."
-      }
+        "NSPhotoLibraryUsageDescription": "Receipt Factory needs photo library access to upload receipt images for analysis.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "bundleIdentifier": "com.receiptfactory.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,13 +27,15 @@
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
       "permissions": [
-        "CAMERA",
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE",
-        "RECEIVE_BOOT_COMPLETED",
-        "VIBRATE",
-        "SCHEDULE_EXACT_ALARM"
-      ]
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.VIBRATE",
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.receiptfactory.app"
     },
     "web": {
       "output": "static",
@@ -75,6 +79,19 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "f84a14b1-6f84-4d14-a6c3-928dc4cc1e61"
+      }
+    },
+    "owner": "hiya.shah1098",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f84a14b1-6f84-4d14-a6c3-928dc4cc1e61"
     }
   }
 }
